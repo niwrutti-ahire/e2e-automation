@@ -23,7 +23,7 @@ const config = defineConfig({
   //reporter: 'html',
   reporter: [
    ['line'],
-   ['allure-playwright']
+     ['allure-playwright', { outputFolder: 'allure-results' }]
  ],
 
   use: {
